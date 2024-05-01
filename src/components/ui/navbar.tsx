@@ -5,7 +5,7 @@ import { UserButton } from "@clerk/nextjs";
 import MobileSidebar from "./MobileSidebar";
 export default function Navbar() {
   return (
-    <div className="p-4 flex items-center border-b ">
+    <div className="p-4 flex items-center border-b mb-3">
       <MobileSidebar />
       <div className="flex w-full justify-end">
         <UserButton afterSignOutUrl="/" />
